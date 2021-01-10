@@ -5,15 +5,15 @@ import android.app.Application;
 import android.content.Context;
 
 public class SunnyWeatherApplication extends Application {
-    public void object(){
-        @SuppressLint("StaticFieldLeak")
-        Context context;
-        String TOKEN="";
-    }
+
+    public static final String TOKEN = "JmGUqoedzLZIHrKt";
+
+    @SuppressLint("StaticFieldLeak")
+    Context context;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        Context context = getApplicationContext();
+        context = getApplicationContext();
     }
 }
