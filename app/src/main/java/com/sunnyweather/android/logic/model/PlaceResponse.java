@@ -5,8 +5,9 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 public class PlaceResponse {
-    String status;
-    static List<Place> places;
+    public String status;
+    public List<Place> places;
+
 
     public String getStatus() {
         return status;
@@ -16,7 +17,7 @@ public class PlaceResponse {
         this.status = status;
     }
 
-    public static List<Place> getPlaces() {
+    public List<Place> getPlaces() {
         return places;
     }
 

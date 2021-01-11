@@ -12,14 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.sunnyweather.android.R;
 import com.sunnyweather.android.logic.model.Place;
+import com.sunnyweather.android.ui.weather.WeatherActivity;
 
 import java.util.List;
 
 public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> {
-    Fragment fragment;
+    PlaceFragment fragment;
     List<Place> placeList;
 
-    public PlaceAdapter(Fragment fragment, List<Place> placeList) {
+    public PlaceAdapter(PlaceFragment fragment, List<Place> placeList) {
         this.fragment = fragment;
         this.placeList = placeList;
     }

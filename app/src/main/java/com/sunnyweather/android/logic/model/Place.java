@@ -3,12 +3,10 @@ package com.sunnyweather.android.logic.model;
 import com.google.gson.annotations.SerializedName;
 
 public class Place{
-    String name;
-    Location location;
-
+    public String name;
+    public Location location;
     @SerializedName("formatted_address")
-    String address;
-
+    public String address;
     public String getName() {
         return name;
     }

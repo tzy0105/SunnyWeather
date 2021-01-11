@@ -13,9 +13,4 @@ public class ServiceCreator {
     public static<T> T create(Class<T> serviceClass){
         return retrofit.create(serviceClass);
     }
-
-    public <reified T> T create() {
-        return create();
-    }
-
 }

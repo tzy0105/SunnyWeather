@@ -8,8 +8,7 @@ public class SunnyWeatherApplication extends Application {
 
     public static final String TOKEN = "JmGUqoedzLZIHrKt";
 
-    @SuppressLint("StaticFieldLeak")
-    Context context;
+    public static Context context;
 
     @Override
     public void onCreate() {
